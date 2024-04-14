@@ -1,0 +1,94 @@
+Base:
+  System:
+    MaxGoRoutines: 15000
+
+  Service:
+    Port: "9090"
+
+Bot:
+  AppVersion: "1.0.0"
+  Token: ""
+
+HttpConfig:
+  time_out: 100
+  accept: "application/json"
+  do_log_requests: 1
+
+ControllerPostgres:
+  host: ""
+  port: ""
+  user: ""
+  password: ""
+  DBName: ""
+  sslMode: ""
+  pgDriver: ""
+  connMaxIdleTime: 100
+  maxOpenConns: 100
+
+LoggerPostgres:
+  host: ""
+  port: ""
+  user: ""
+  password: ""
+  DBName: ""
+  sslMode: ""
+  pgDriver: ""
+  connMaxIdleTime: 100
+  maxOpenConns: 100
+
+MarketPostgres:
+  host: ""
+  port: ""
+  user: ""
+  password: ""
+  DBName: ""
+  sslMode: ""
+  pgDriver: ""
+  connMaxIdleTime: 100
+  maxOpenConns: 100
+
+TransactionPostgres:
+  host: ""
+  port: ""
+  user: ""
+  password: ""
+  DBName: ""
+  sslMode: ""
+  pgDriver: ""
+  connMaxIdleTime: 100
+  maxOpenConns: 100
+
+TwinklePostgres:
+  host: ""
+  port: ""
+  user: ""
+  password: ""
+  DBName: ""
+  sslMode: ""
+  pgDriver: ""
+  connMaxIdleTime: 100
+  maxOpenConns: 100
+
+TxTextPostgres:
+  host: ""
+  port: ""
+  user: ""
+  password: ""
+  DBName: ""
+  sslMode: ""
+  pgDriver: ""
+  connMaxIdleTime: 100
+  maxOpenConns: 100
+
+Twinkle:
+  Url: ""
+  ApiPublic: ""
+  ApiPrivate: ""
+
+ComparisonWhitelist: []
+StatisticWhitelist: []
+
+Chat:
+  ExchequerID:
+  ControlID:
+  DiscrepancyID:
